@@ -1,0 +1,8 @@
+CRITICAL - 2023-05-08 01:31:37 --> Too few arguments to function CodeIgniter\Router\RouteCollection::setAutoRoute(), 0 passed in C:\xampp\htdocs\graver\app\Config\Routes.php on line 18 and exactly 1 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 398.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->setAutoRoute()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\graver\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
